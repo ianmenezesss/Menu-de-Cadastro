@@ -2,7 +2,7 @@ package Programa;
 
 public class Funcionario extends Pessoa {
 	
-	//Atributos especificos da classe que extende pessoa
+	//Classe Funcionario que extende Pessoa
 	
 	private double salario;
 	private String cargo;

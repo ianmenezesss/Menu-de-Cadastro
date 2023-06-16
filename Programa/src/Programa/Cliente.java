@@ -2,7 +2,7 @@ package Programa;
 
 public class Cliente extends Pessoa{
 	
-	//Classe que extende pessoa (apenas para a coerência do programa com a realidade)
+	//Classe Cliente que extende Pessoa
 
 	public Cliente() {
 		super();
