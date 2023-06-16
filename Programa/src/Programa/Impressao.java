@@ -1,6 +1,6 @@
 package Programa;
 
-public class Impressao { //Classe que organiza a impressão dos metodos
+public class Impressao { // Classe que organiza a impressão dos metodos
 
 	public void exibirMenu() {  // Método para apenas exibir o menu geral
 		System.out.println("------ MENU ------");
