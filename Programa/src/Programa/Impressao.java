@@ -2,7 +2,7 @@ package Programa;
 
 public class Impressao { // Classe que organiza a impressão dos metodos
 
-	public void exibirMenu() {  // Método para apenas exibir o menu geral
+	public void exibirMenu() { // Método para apenas exibir o menu geral
 		System.out.println("------ MENU ------");
 		System.out.println("1. Cadastrar pessoa");
 		System.out.println("2. Listar pessoas");

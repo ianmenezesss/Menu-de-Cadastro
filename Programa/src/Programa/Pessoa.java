@@ -2,7 +2,7 @@ package Programa;
 
 public abstract class Pessoa {
 	
-	//Classe pessoa abstrata (apenas para a coerência do programa com a realidade)
+	// Classe pessoa abstrata (apenas para a coerência do programa com a realidade)
 	
     protected String nome;
     protected int idade;
@@ -20,7 +20,7 @@ public abstract class Pessoa {
         this.endereco = endereco;
     }
 	
-	protected abstract void imprimirPessoa(); //Metodo geral que imprime pessoa
+	protected abstract void imprimirPessoa(); // Metodo geral que imprime pessoa
 
   // Getters e Setters
     

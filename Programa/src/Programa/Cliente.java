@@ -2,7 +2,7 @@ package Programa;
 
 public class Cliente extends Pessoa{
 	
-	//Classe Cliente que extende Pessoa
+	// Classe Cliente que extende Pessoa
 
 	public Cliente() {
 		super();
@@ -55,7 +55,7 @@ public class Cliente extends Pessoa{
     }
     
     @Override
-	public void imprimirPessoa() {  //Metodo que imprime um cliente (uso do polimorfismo)
+	public void imprimirPessoa() {  // Metodo que imprime um cliente (uso do polimorfismo)
 		System.out.println("------ CLIENTE ENCONTRADO ------");
 		System.out.println("Nome: " + this.getNome());
 		System.out.println("Idade: " + this.getIdade());

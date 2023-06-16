@@ -2,7 +2,7 @@ package Programa;
 
 public class Funcionario extends Pessoa {
 	
-	//Classe Funcionario que extende Pessoa
+	// Classe Funcionario que extende Pessoa
 	
 	private double salario;
 	private String cargo;
@@ -76,7 +76,7 @@ public class Funcionario extends Pessoa {
 	}
 	
 	@Override
-	public void imprimirPessoa() { //Metodo que imprime um funcionario (uso do polimorfismo)
+	public void imprimirPessoa() { // Metodo que imprime um funcionario (uso do polimorfismo)
         System.out.println("------ FUNCIONÁRIO ENCONTRADO ------");
         System.out.println("Nome: " + this.getNome());
         System.out.println("Idade: " + this.getIdade());
