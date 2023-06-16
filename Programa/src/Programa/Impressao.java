@@ -1,6 +1,6 @@
 package Programa;
 
-public class Impressao { // Classe que organiza a impressão dos metodos
+public class Impressao {  // Classe que organiza a impressão dos metodos
 
 	public void exibirMenu() { // Método para apenas exibir o menu geral
 		System.out.println("------ MENU ------");
@@ -13,7 +13,7 @@ public class Impressao { // Classe que organiza a impressão dos metodos
 		System.out.println("0. Sair");
 		System.out.print("Digite a opção desejada: ");
 	}
-	public void modificarCliente() {// Método para apenas exibir o menu de modificação cliente
+	public void modificarCliente() { // Método para apenas exibir o menu de modificação cliente
 		System.out.println();
 		System.out.println("------ MENU ------");
 		System.out.println("1. Modificar nome");
@@ -23,7 +23,7 @@ public class Impressao { // Classe que organiza a impressão dos metodos
 		System.out.println("5. Modificar endereço");
 		System.out.print("Digite a opção desejada: ");
 	}
-	public void modificarFuncionario() {// Método para apenas exibir o menu de modificação funcionario
+	public void modificarFuncionario() { // Método para apenas exibir o menu de modificação funcionario
 		System.out.println();
 		System.out.println("------ MENU ------");
 		System.out.println("1. Modificar nome");

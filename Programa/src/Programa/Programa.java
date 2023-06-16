@@ -14,8 +14,8 @@ public class Programa {
 	public static void main(String[] args){
 
 		Impressao imprimir = new Impressao(); // Instanciando a  classe impressora
-		OperacoesPessoas operacoes = new OperacoesPessoas();  //Instanciando as operações
-		operacoes.cadastrarAutomaticamente(pessoas);  //Aplicação cadastra as pessoas
+		OperacoesPessoas operacoes = new OperacoesPessoas();  // Instanciando as operações
+		operacoes.cadastrarAutomaticamente(pessoas);  // Aplicação cadastra as pessoas
 
 		// Recebendo a opção do usuário e fazendo as operações
 		

@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class OperacoesPessoas {
-    public void cadastrarPessoa(List<Pessoa> pessoas) {  //Método para cadastrar uma pessoa manualmente
+    public void cadastrarPessoa(List<Pessoa> pessoas) { //Método para cadastrar uma pessoa manualmente
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("------ CADASTRO ------");

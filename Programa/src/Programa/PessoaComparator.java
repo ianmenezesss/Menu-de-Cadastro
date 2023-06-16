@@ -2,7 +2,7 @@ package Programa;
 
 import java.util.Comparator;
 
-// Classe PessoaComparator para comparar pessoas pelo nome (utilizado na ordenação)
+ //Classe PessoaComparator para comparar pessoas pelo nome (utilizado na ordenação)
 
 public class PessoaComparator implements Comparator<Pessoa> {
     @Override
