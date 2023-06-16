@@ -163,7 +163,7 @@ public class OperacoesPessoas {
         for (Pessoa pessoa : pessoas) {
             if (pessoa.getNome().equalsIgnoreCase(nomeBusca)) {
                 if(pessoa instanceof Cliente) {
-                   	Cliente cliente = (Cliente) pessoa; // Pessoa vira Cliente usando downcasting
+                   	Cliente cliente = (Cliente) pessoa; //Pessoa vira Cliente usando downcasting
                 	cliente.imprimirPessoa();
                     System.out.print("Deseja modificar esse cliente? (S/N): ");
                     String confirmacao = scanner.nextLine();
