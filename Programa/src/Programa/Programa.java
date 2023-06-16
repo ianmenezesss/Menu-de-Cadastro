@@ -17,7 +17,7 @@ public class Programa {
 		OperacoesPessoas operacoes = new OperacoesPessoas();  //Instanciando as operações
 		operacoes.cadastrarAutomaticamente(pessoas);  //Aplicação cadastra as pessoas
 
-		//Recebendo a opção do usuário e fazendo as operações
+		// Recebendo a opção do usuário e fazendo as operações
 		
 		Scanner scanner = new Scanner(System.in);
 		int opcao;
