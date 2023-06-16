@@ -22,7 +22,7 @@ public class Programa {
 		Scanner scanner = new Scanner(System.in);
 		int opcao;
 		do {   
-			imprimir.exibirMenu();  //Aplicação exibe o menu
+			imprimir.exibirMenu();  //Aplicação exibe o menu principal
 			try {  // Estrutura para capturar exceções no programa
 			opcao = scanner.nextInt();
 			scanner.nextLine(); // Limpar o buffer
